@@ -14,7 +14,8 @@
                 Home of the Official <a href="https://www.nba.com" target="_blank" >NBA</a> 
                 Advanced Statistics and Analytics.</p>
               <p class="lead pt-2">
-                <a href="#" class="btn btn-lg btn-secondary fw-bold ">Learn more</a>
+                <a href="/teams" class="btn btn-lg btn-secondary fw-bold mr-2 px-4">TEAMS</a>
+                <a href="/players" class="btn btn-lg btn-secondary fw-bold ml-2 px-4">PLAYERS</a>
               </p>
             </div>
           </div>

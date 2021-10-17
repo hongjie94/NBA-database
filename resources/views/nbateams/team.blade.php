@@ -4,7 +4,7 @@
 
 @foreach($teamsDatas  as $teamData )
   @if($teamData['Key'] === $key)
-  <div class="pt-5">
+  <div class="pt-5" style="background: #{{$teamData['PrimaryColor']}}">
     <div class='container card' style="background: #FFFF">
       <div class="d-flex flex-column align-items-center justify-content-center">
         <div class="imgdiv">
@@ -12,7 +12,7 @@
         </div>
        
         <div class="d-flex flex-column align-items-center justify-content-center">
-          <h1 class="text-center p-2 title text-uppercase">{{$teamData['City']}} {{$teamData['Name']}}</h1>
+          <h1 class="text-center p-2 title text-uppercase" style="color: #{{$teamData['PrimaryColor']}}">{{$teamData['City']}} {{$teamData['Name']}}</h1>
           <h3 class='text-center text-muted sub-title'>2021 Team Players 
             <span class="badge rounded-pill text-white" style="background: #{{$teamData['PrimaryColor']}}">
               {{count($team)}}

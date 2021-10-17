@@ -21,6 +21,3 @@ Route::get('/players', [NbaDatabaseController::class, 'players']);
 Route::get('/teams', [NbaDatabaseController::class, 'teams']);
 Route::get('/team/{key}', [NbaDatabaseController::class, 'team']);
 Route::get('/team/{key}/player/{id}', [NbaDatabaseController::class, 'teamplayer']);
-
-Auth::routes();
-Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
