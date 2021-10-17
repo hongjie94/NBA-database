@@ -10002,6 +10002,13 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.bg {
+  padding: 5em;
+  margin: 0;
+  width: 100%;
+  background-color: #374151;
+}
+
 .nav-color, .footer-color {
   background-color: #1F2937;
 }
@@ -10016,7 +10023,99 @@ h3 {
   margin: 4.7em 0.5em 0em 3em;
 }
 
+.teamtitle, .title {
+  font-weight: 800;
+  font-family: system-ui;
+}
+
+.title {
+  color: white;
+}
+
+.sub-title {
+  font-weight: 400;
+  font-family: system-ui;
+  color: white;
+}
+
+.auto-p {
+  padding: 0 0.6em;
+}
+
+.line-height-sm {
+  line-height: 1.2;
+}
+
+.teamcard:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+.teamcard {
+  transition: transform 500ms ease-in-out 25ms;
+}
+
+.cardlinks {
+  color: black;
+}
+
+.cardlinks:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.teamplayercards {
+  transition: transform 500ms ease-in-out 25ms;
+}
+
+.teamplayercards:hover {
+  opacity: 0.6;
+  transform: translateY(-15px);
+}
+
+.starSvg {
+  width: 2em;
+  padding: 5px;
+}
+
+.min-height {
+  height: 100vh;
+}
+
+.playerinfo > div {
+  font-size: 1.2em;
+}
+
+.playerinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.playerinfoimg {
+  min-width: 350px;
+}
+
+@media only screen and (max-width: 992px) {
+  .imageWrap {
+    margin-bottom: 2em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .auto-p {
+    padding: 0;
+    margin: 0 -0.55em;
+  }
+
+  .playerinfoimg {
+    min-width: auto !important;
+  }
+}
 @media only screen and (max-width: 575px) {
+  .auto-p {
+    margin: auto;
+  }
+
   .xs-display {
     padding: 1rem !important;
     margin: auto;
@@ -10026,5 +10125,31 @@ h3 {
 
   .xs-height {
     height: 350px !important;
+  }
+
+  .xs-playerimages {
+    display: flex;
+    justify-content: center;
+  }
+
+  .xs-teamplayers_row {
+    width: 275px !important;
+  }
+
+  .xs-teamplayers_col {
+    justify-content: center !important;
+    display: flex !important;
+  }
+
+  .xs-card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 335px) {
+  .teamsicon {
+    right: -16px;
   }
 }
