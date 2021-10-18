@@ -57,7 +57,7 @@
               </div>
               <div class="col-md-7 col-sm-6 d-flex align-items-end">
                 <div class="card-body position-relative xs-card-body pl-1">
-                  <img src="{{'https://cdn.nba.com/logos/nba/' . (end($player['teams'])['teamId']) . '/primary/L/logo.svg'}}" alt="UNKNOWN TEAM" class='teamsicon'>
+                  <img src="https://cdn.nba.com/logos/nba/{{end($player['teams'])['teamId']}}/primary/L/logo.svg" alt="UNKNOWN TEAM" class='teamsicon'>
                   <p class="card-text m-0">
                     <small class="d-inline-block text-truncate" style="max-width: 250px;">
                       @foreach($teams['league']['standard'] as $team)
