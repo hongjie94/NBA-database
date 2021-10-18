@@ -2,7 +2,7 @@
 
 @section('content')
     
-<div class='bg mb-5'>
+<div class='bg'>
   <h1 class="text-center p-2 my-3 title">2021 NBA Players</h1>
   <div class="container py-5 mt-5">
     <div class="row">
@@ -16,9 +16,7 @@
               </div>
               <div class="col-md-7 col-sm-6 d-flex align-items-end">
                 <div class="card-body position-relative xs-card-body pl-0">
-                  @if((end($player['teams'])["teamId"]))
-                    <img src="https://cdn.nba.com/logos/nba/{{(end($player['teams'])["teamId"]) }}/primary/L/logo.svg" alt="TEAM" class='teamsicon'>
-                  @endif  
+                   <img src="https://cdn.nba.com/logos/nba/{{$player['teams'][0]['teamId']}}/primary/L/logo.svg" alt="TEAM" class='teamsicon'> 
                   <p class="card-text m-0">
                     <small class="d-inline-block text-truncate" style="max-width: 150px;">
                     @foreach($teams['league']['standard'] as $team)
