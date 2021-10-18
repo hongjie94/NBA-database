@@ -16,7 +16,7 @@
   </title>
   
   <!-- Icon -->
-  <link rel="icon" href="https://github.com/hongjie94/Nba-Database/blob/703a641ae5002d749ee2c99d9c6e745bff1b31f6/public/favicon.ico" type="image/x-icon"/>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 
   <!-- Scripts -->
   <script src="{{ asset('js/app.js') }}" defer></script>
