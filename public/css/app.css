@@ -10148,6 +10148,7 @@ h3 {
     flex-direction: column;
   }
 }
+
 @media only screen and (max-width: 335px) {
   .teamsicon {
     right: -16px;
