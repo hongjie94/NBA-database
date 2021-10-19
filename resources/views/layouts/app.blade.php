@@ -16,16 +16,13 @@
   </title>
   
   <!-- Icon -->
-  <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+  <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/imagesbucket-468ae.appspot.com/o/NBA%20DATABASE%2Ffavicon.ico?alt=media&token=f7faf55c-a369-4a94-9154-f9890071b3e3" type="image/x-icon"/>
 
   <!-- Styles -->
   <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/imagesbucket-468ae.appspot.com/o/NBA%20DATABASE%2Fapp.css?alt=media&token=717077ec-5133-48f3-a7cd-fc89482292d8">
 
   <!-- Scripts -->
   <script src="https://firebasestorage.googleapis.com/v0/b/imagesbucket-468ae.appspot.com/o/NBA%20DATABASE%2Fapp.js?alt=media&token=4ac26f59-7d55-4795-9cec-cf897dba9534" defer></script>
-  
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
  
 </head>
 <body>
