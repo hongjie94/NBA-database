@@ -1,3 +1,18 @@
+# DCTS-phpweb 
+A Web built with Laravel showcase information about 2021 NBA team and NBA players
+
+## Technologies Used
+
+* PHP
+* Laravel8
+* Bootstrap5
+* SASS
+* CSS3
+* HTML5
+* Vercel(Hosting)
+
+### [https://nba-database.vercel.app](https://nba-database.vercel.app)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
