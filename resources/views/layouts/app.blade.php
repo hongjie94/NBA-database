@@ -19,7 +19,7 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 
   <!-- Styles -->
-  <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/imagesbucket-468ae.appspot.com/o/NBA%20DATABASE%2Fapp.css?alt=media&token=e05aff70-d5b9-4380-8310-368edb96d8bb">
+  <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/imagesbucket-468ae.appspot.com/o/NBA%20DATABASE%2Fapp.css?alt=media&token=717077ec-5133-48f3-a7cd-fc89482292d8">
 
   <!-- Scripts -->
   <script src="https://firebasestorage.googleapis.com/v0/b/imagesbucket-468ae.appspot.com/o/NBA%20DATABASE%2Fapp.js?alt=media&token=4ac26f59-7d55-4795-9cec-cf897dba9534" defer></script>
