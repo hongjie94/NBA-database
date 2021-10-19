@@ -18,17 +18,18 @@
   <!-- Icon -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/app.css">
+
   <!-- Scripts -->
-  <script src="{{ asset('js/app.js') }}" defer></script>
+  <script src="/js/app.js" defer></script>
   
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-  
-  <!-- Styles -->
-  <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/imagesbucket-468ae.appspot.com/o/NBA%20DATABASE%2Fapp.css?alt=media&token=3ffaa275-61e5-48fd-bfcd-1096e1b8608a">
+ 
 </head>
 <body>
   <div id="app">
